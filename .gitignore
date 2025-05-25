@@ -1,0 +1,27 @@
+# Local .terraform directories
+**/.terraform/*
+
+#  Ignore variables files
+*.auto.tfvars
+
+#  Ignore override files
+*.tfoverride
+
+#  Ignore environment-specific files
+.envrc
+
+#  Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore virtual environments
+venv/
+
+# Ignore .env file
+**/*.env
+
+# Ignore __pycache__ directories
+__pycache__/
+
+#remove dbt target folder
+target/
