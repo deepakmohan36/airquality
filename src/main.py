@@ -1,5 +1,3 @@
-
-
 from air_quality_data import get_airquality_data
 from load_data import load_data_to_bigquery_clear_table
 

@@ -1,6 +1,11 @@
+import os
 from google.cloud import bigquery
+from dotenv import load_dotenv
+
 
 def load_data_to_bigquery_clear_table(dataset_id, table_id, data):
+
+    load_dotenv()
 
     # Initialize a BigQuery client
     client = bigquery.Client()
