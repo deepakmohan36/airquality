@@ -50,4 +50,4 @@ def get_all_parameters():
 
     return all_data
 
-print(get_all_parameters())
+# print(get_all_parameters())
