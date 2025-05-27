@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_airquality
+    schema:  raw_airquality
+    tables:
+      - name: raw_parameters
+      - name: raw_locations
+
+      
